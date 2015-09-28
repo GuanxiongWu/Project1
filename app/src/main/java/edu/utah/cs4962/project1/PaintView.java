@@ -23,9 +23,9 @@ public class PaintView extends ViewGroup
     }
     OnPolylineComposedListener _onValueChangedListener = null;
 
-    private List<Polyline> _polyline = new ArrayList<Polyline>();
-    private List<PointF> _points = new ArrayList<PointF>();
-    private List<Float> _times = new ArrayList<Float>();
+    private List<Polyline> _polyline = new ArrayList<>();
+    private List<PointF> _points = new ArrayList<>();
+    private List<Float> _times = new ArrayList<>();
     private int currentColor = Color.BLACK;
     private boolean enabledTouch = true;
 

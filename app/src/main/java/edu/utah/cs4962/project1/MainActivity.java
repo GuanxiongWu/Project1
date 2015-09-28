@@ -15,8 +15,8 @@ import java.util.List;
 
 public class MainActivity extends Activity
 {
-    private List<Polyline> _polyline = new ArrayList<Polyline>();
-    private List<Integer> newColors = new ArrayList<Integer>();
+    private List<Polyline> _polyline = new ArrayList<>();
+    private List<Integer> newColors = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -41,7 +41,7 @@ public class MainActivity extends Activity
             @Override
             public void onPolylineComposed(List<Polyline> polylines)
             {
-                _polyline = new ArrayList<Polyline>(polylines);
+                _polyline = new ArrayList<>(polylines);
                 outline.setPolyline(_polyline);
             }
         });

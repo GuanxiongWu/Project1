@@ -24,7 +24,7 @@ public class PaletteView extends ViewGroup
         super(context);
     }
 
-    public List<Integer> newColors = new ArrayList<Integer>();
+    public List<Integer> newColors = new ArrayList<>();
     private int clickedChild = -1;
 
     public void setClickedChild(int clickedChild)

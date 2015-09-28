@@ -10,8 +10,8 @@ import java.util.List;
  */
 public class Polyline
 {
-    List<PointF> points = new ArrayList<PointF>();
-    List<Float> times = new ArrayList<Float>();
+    List<PointF> points = new ArrayList<>();
+    List<Float> times = new ArrayList<>();
     int color = 0;
 
     public Polyline(List<PointF> line, int c)
@@ -26,5 +26,4 @@ public class Polyline
         times.addAll(t);
         color = c;
     }
-
 }
